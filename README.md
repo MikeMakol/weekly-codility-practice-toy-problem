@@ -19,21 +19,21 @@ Write a function that accepts two numbers a and b and returns whether a is small
 
 **BDD (Behavior Driven Development)**
 
-*Given:* a and b
-*When:* The probability of number a is smaller than, bigger than, or equal to b
-*Then:* Return whether a is smaller than, bigger than, or equal to b, as a string
+**Given:** a and b
+**When:** The probability of number a is smaller than, bigger than, or equal to b
+**Then:** Return whether a is smaller than, bigger than, or equal to b, as a string
 
 **Example1:** 
-*Given:* (5, 4) 
-*Return:* "5 is greater than 4"
+**Given:** (5, 4) 
+**Return:** "5 is greater than 4"
 
 **Example2:**
-*Given:* (-4, -7) 
-*Return:* "-4 is greater than -7"
+**Given:** (-4, -7) 
+**Return:** "-4 is greater than -7"
 
 **Example3:**
-*Given:* (2, 2)
-*Return:* "2 is equal to 2"
+**Given:** (2, 2)
+**Return:** "2 is equal to 2"
 
 **PseudoCode:**
 * Use an array called comparison, which holds three different strings representing the comparison results
@@ -51,21 +51,21 @@ Count the number of occurrences of each character and return it as a (list of ar
 
 **BDD (Behavior Driven Development)**
 
-*Given:* abracadabra
-*When:* The number of occurrences of each character
-*Then:* return it as a (list of arrays) in order of appearance. For empty output return (an empty list)
+**Given:** abracadabra
+**When:** The number of occurrences of each character
+**Then:** return it as a (list of arrays) in order of appearance. For empty output return (an empty list)
 
 **Example1:** 
-*Given:* "abracadabra"
-*Return:* [['a', 5], ['b', 2], ['r', 2], ['c', 1], ['d', 1]]
+**Given:** "abracadabra"
+**Return:** [['a', 5], ['b', 2], ['r', 2], ['c', 1], ['d', 1]]
 
 **Example2:**
-*Given:* "Code Wars" 
-*Return:* [['C', 1], ['o', 1], ['d', 1], ['e', 1], [' ', 1], ['W', 1], ['a', 1], ['r', 1], ['s', 1]]
+**Given:** "Code Wars" 
+**Return:** [['C', 1], ['o', 1], ['d', 1], ['e', 1], [' ', 1], ['W', 1], ['a', 1], ['r', 1], ['s', 1]]
 
 **Example3:**
-*Given:* "233312"
-*Return:* [['2', 2], ['3', 3], ['1', 1 ]]
+**Given:** "233312"
+**Return:** [['2', 2], ['3', 3], ['1', 1 ]]
 
 **PseudoCode:**
 * Use a hash map (in Ruby) called count to store the count of occurrences for each character
